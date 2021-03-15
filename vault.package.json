@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahdinosaur/debian-vault.git"
+    "url": "git+https://github.com/mkfischer/debian-vault.git"
   },
-  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "author": "Mike Fischer <mike@electricramblers.com>"
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/ahdinosaur/debian-vault/issues"
+    "url": "https://github.com/mkfischer/debian-vault/issues"
   },
-  "homepage": "https://github.com/ahdinosaur/debian-vault#readme"
+  "homepage": "https://github.com/mkfischer/debian-vault#readme"
 }
