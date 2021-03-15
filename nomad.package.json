@@ -1,7 +1,7 @@
 {
-  "name": "consul",
-  "version": "1.9.4",
-  "description": "https://www.consul.io/",
+  "name": "nomad",
+  "version": "1.0.4",
+  "description": "https://www.nomad.io/",
   "dependencies": {},
   "scripts": {
     "key": "hashicorp-deb:key",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mkfischer/debian-consul.git"
+    "url": "git+https://github.com/ahdinosaur/debian-nomad.git"
   },
-  "author": "Mike <mike@elasticramblers.com>",
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/mkfischer/debian-consul/issues"
+    "url": "https://github.com/ahdinosaur/debian-nomad/issues"
   },
-  "homepage": "https://github.com/mkfischer/debian-consul#readme"
+  "homepage": "https://github.com/ahdinosaur/debian-nomad#readme"
 }
