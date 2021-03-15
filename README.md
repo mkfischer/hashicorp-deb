@@ -3,12 +3,12 @@
 helper scripts to build Debian packages (`.deb` files) for the [Hashicorp ecosystem](https://releases.hashicorp.com):
 
 - [ ] [`vagrant`](https://www.vagrantup.com): there's already `.deb` files [here](https://releases.hashicorp.com/vagrant/)
-- [x] [`packer`](https://www.packer.io/): [`ahdinosaur/debian-packer`](https://github.com/ahdinosaur/debian-packer)
-- [x] [`terraform`](https://www.terraform.io): [`ahdinosaur/debian-terraform`](https://github.com/ahdinosaur/debian-terraform)
-- [x] [`vault`](https://www.vaultproject.io): [`ahdinosaur/debian-vault`](https://github.com/ahdinosaur/debian-vault)
-- [x] [`consul`](https://www.consul.io): [`ahdinosaur/debian-consul`](https://github.com/ahdinosaur/debian-consul)
-- [x] [`nomad`](https://www.nomadproject.io/): [`ahdinosaur/debian-nomad`](https://github.com/ahdinosaur/debian-nomad)
-- [x] [`serf`](https://www.serf.io/): [`ahdinosaur/debian-serf`](https://github.com/ahdinosaur/debian-serf)
+- [x] [`packer`](https://www.packer.io/): [`mkfischer/debian-packer`](https://github.com/mkfischer/debian-packer)
+- [x] [`terraform`](https://www.terraform.io): [`mkfischer/debian-terraform`](https://github.com/mkfischer/debian-terraform)
+- [x] [`vault`](https://www.vaultproject.io): [`mkfischer/debian-vault`](https://github.com/mkfischer/debian-vault)
+- [x] [`consul`](https://www.consul.io): [`mkfischer/debian-consul`](https://github.com/mkfischer/debian-consul)
+- [x] [`nomad`](https://www.nomadproject.io/): [`mkfischer/debian-nomad`](https://github.com/mkfischer/debian-nomad)
+- [x] [`serf`](https://www.serf.io/): [`mkfischer/debian-serf`](https://github.com/mkfischer/debian-serf)
 
 ## scripts
 
