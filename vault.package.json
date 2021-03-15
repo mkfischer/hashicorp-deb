@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/mkfischer/debian-vault.git"
   },
-  "author": "Mike Fischer <mike@electricramblers.com>"
+  "author": "Mike Fischer <mike@electricramblers.com>",
   "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/mkfischer/debian-vault/issues"
