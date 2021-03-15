@@ -1,0 +1,25 @@
+{
+  "name": "vault",
+  "version": "0.6.2",
+  "description": "https://www.vaultproject.io/",
+  "dependencies": {},
+  "scripts": {
+    "key": "hashicorp-deb:key",
+    "download": "hashicorp-deb:download",
+    "build": "hashicorp-deb:build",
+    "package": "hashicorp-deb:package",
+    "install": "hashicorp-deb:install",
+    "preinstall": "npm run key && npm run download && npm run build && npm run package",
+    "clean": "rm -rf .downloads .builds .packages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/debian-vault.git"
+  },
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/debian-vault/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/debian-vault#readme"
+}
