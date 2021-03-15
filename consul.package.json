@@ -1,8 +1,25 @@
-#!/bin/sh
-
-__dirname="$(dirname "$(realpath "$0")")"
-. "${__dirname}/context"
-
-mkdir -p "${packages}"
-
-sudo dpkg-deb --build "${builds}/${base}" "${packages}"
+{
+  "name": "consul",
+  "version": "1.9.4",
+  "description": "https://www.consul.io/",
+  "dependencies": {},
+  "scripts": {
+    "key": "hashicorp-deb:key",
+    "download": "hashicorp-deb:download",
+    "build": "hashicorp-deb:build",
+    "package": "hashicorp-deb:package",
+    "install": "hashicorp-deb:install",
+    "preinstall": "npm run key && npm run download && npm run build && npm run package",
+    "clean": "rm -rf .downloads .builds .packages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkfischer/debian-consul.git"
+  },
+  "author": "Mike <mike@elasticramblers.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mkfischer/debian-consul/issues"
+  },
+  "homepage": "https://github.com/mkfischer/debian-consul#readme"
+}
