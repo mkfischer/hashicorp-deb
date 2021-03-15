@@ -25,12 +25,8 @@ export packages="${cwd}/.packages"
 __dirname="$(dirname "$(realpath "$0")")"
 . "${__dirname}/context"
 
-gpg --fingerprint "${keyprint}" > /dev/null
-if test "$?" != "0"
-then
-  echo "installing signing key"
-  curl https://keybase.io/hashicorp/key.asc | gpg --import
-fi
+echo "installing signing key"
+curl https://keybase.io/hashicorp/key.asc | gpg --import
 
 __dirname="$(dirname "$(realpath "$0")")"
 . "${__dirname}/context"
