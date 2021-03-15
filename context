@@ -4,7 +4,7 @@ export cwd="$(pwd)"
 export __dirname="$(dirname "$(realpath "$0")")"
 
 export os="linux"
-export arch="amd64"
+export arch="arm64"
 
 export name="$(jq -r '.name' package.json)"
 export version="$(jq -r '.version' package.json)"

@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahdinosaur/hashicorp-deb.git"
+    "url": "git+https://github.com/mkfischer/hashicorp-deb.git"
   },
-  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "author": "Mike Fischer <mike@electricramblers.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ahdinosaur/hashicorp-deb/issues"
+    "url": "https://github.com/mkfischer/hashicorp-deb/issues"
   },
-  "homepage": "https://github.com/ahdinosaur/hashicorp-deb#readme"
+  "homepage": "https://github.com/mkfischer/hashicorp-deb#readme"
 }
