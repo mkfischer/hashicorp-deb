@@ -25,12 +25,6 @@ export packages="${cwd}/.packages"
 __dirname="$(dirname "$(realpath "$0")")"
 . "${__dirname}/context"
 
-echo "installing signing key"
-curl https://keybase.io/hashicorp/key.asc | gpg --import
-
-__dirname="$(dirname "$(realpath "$0")")"
-. "${__dirname}/context"
-
 mkdir -p "${downloads}"
 cd "${downloads}"
 
