@@ -1,6 +1,6 @@
 {
   "name": "vault",
-  "version": "1.6.3",
+  "version": "1.7.2",
   "description": "https://www.vaultproject.io/",
   "dependencies": {},
   "scripts": {
