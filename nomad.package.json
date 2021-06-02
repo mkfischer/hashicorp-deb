@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahdinosaur/debian-nomad.git"
+    "url": "git+https://github.com/mfischer/hashicorp-deb.git"
   },
-  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "author": "Mike Fischer <mike@electricramblers.com",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/ahdinosaur/debian-nomad/issues"
+    "url": "https://github.com/mkfischer/hashicorp-deb/issues"
   },
-  "homepage": "https://github.com/ahdinosaur/debian-nomad#readme"
+  "homepage": "hhttps://github.com/mkfischer/hashicorp-deb#readme"
 }

@@ -1,5 +1,5 @@
 #!/bin/sh
-set -ex
+set -e
 
 export cwd="$(pwd)"
 export __dirname="$(dirname "$(realpath "$0")")"
@@ -11,7 +11,7 @@ export description="$(jq -r '.description' package.json)"
 export maintainer="$(jq -r '.author' package.json)"
 export host="releases.hashicorp.com"
 export keyuid="HashiCorp Security <security@hashicorp.com>"
-export keyprint="91A6E7F85D05C65630BEF18951852D87348FFC4C"
+export keyprint="C874011F0AB405110D02105534365D9472D7468F"
 export bin='/usr/bin'
 export sha='256'
 export base="${name}_${version}"
@@ -38,12 +38,14 @@ fi
 if ! test -e "${sumfile}"
 then
   echo "downloading ${sumfile}"
+  echo "https://${host}/${name}/${version}/${sumfile}"
   curl -O "https://${host}/${name}/${version}/${sumfile}"
 fi
 
 if ! test -e "${sigfile}"
 then
   echo "downloading ${sigfile}"
+  echo "https://${host}/${name}/${version}/${sigfile}"
   curl -O "https://${host}/${name}/${version}/${sigfile}"
 fi
 

@@ -1,8 +1,0 @@
-#!/bin/sh
-
-__dirname="$(dirname "$(realpath "$0")")"
-. "${__dirname}/context"
-
-mkdir -p "${packages}"
-
-sudo dpkg-deb --build "${builds}/${base}" "${packages}"
